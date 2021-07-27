@@ -1,0 +1,77 @@
+.newFile {
+    display: flex;
+    align-items: center;
+    padding: 2px 0;
+    padding-left: 0px;
+}
+
+.newFile__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* TRouBLe */
+    padding: 3px;
+    border-radius: 50px;
+    box-shadow: 0 1px 2px 0 rgba(60, 64, 67, 0.302), 0 1px 3px 1px rgba(60, 64, 67, 0.149);
+    cursor: pointer;
+}
+
+.newFile__container>p{
+    margin-left: 14px;
+}
+
+.fileView{
+    width: 100%;
+}
+
+.fileView__row{
+    height: 250px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.fileView__titles{
+    display: flex;
+    margin-bottom: 5px;
+    color: rgb(85, 78, 78);
+}
+
+.fileView__titles>div>*{
+    margin: 5px;
+}
+
+.fileView__titles--left{
+    
+    flex: 1;
+}
+
+.fileView__titles--right{
+    display: flex;
+}
+.fileItem{
+    height: 55px;
+    border-bottom: 1px solid rgb(219, 219, 219);
+    border-top: 1px solid rgb(219, 219, 219);
+    width: 100%;
+}
+
+.fileItem>a{
+    height: 100%;
+    display: flex;
+    text-decoration: none;
+    color: rgb(85, 78, 78);
+}
+
+.fileItem>a>div{
+    display: flex;
+    align-items: center;
+}
+
+.fileItem>a>div>*{
+    margin: 10px;
+}
+
+.fileItem--left{
+    flex: 1;
+}

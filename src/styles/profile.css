@@ -1,0 +1,38 @@
+.profile{
+    margin:auto;
+    padding: 2px;
+}
+.text-fld{
+    padding: 5px;
+   margin-bottom:10px
+}
+.txt{
+    width: 60%;
+}
+.msg{
+   margin-top: 40px !important;
+}
+
+.user-row{
+    
+    height: 250px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 5px;
+   margin: auto;
+}
+.user-card{
+    /* display: flex; */
+    padding: 10px;
+    margin: 35px;
+    border-radius: 5%;
+    border: 1px solid black;
+    height: 200px;
+    width: 360px;
+}
+
+.user-new-card{
+    margin: 35px;
+    /* padding: 5px; */
+}
